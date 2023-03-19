@@ -1,5 +1,5 @@
-body {font-family: 'Roboto', sans-serif;}
-background-color {color: #FFFFFF;}
+body {font-family: 'Roboto', sans-serif;color: #434455; background-color: #FFFFFF;}
+:root{--brand-color:#434455;}
 
 .title{font-family: 'Raleway';
 font-weight: 800;
@@ -32,8 +32,7 @@ color: #4D5AE5;}
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 1.5;
-    color: #434455;}
+    letter-spacing: 1.5 var(--brand-color)}
 
 .list-contact{text-decoration: none;}
 .header-one{
@@ -79,13 +78,13 @@ color: #4D5AE5;}
 
 .section-our-team{background-color: #F4F4FD;}
 .section-footer {background-color: #2E2F42;}
-.title-last-footer{font-family: 'Raleway';
+
+.title-last-footer{font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16
-    letter-spacing: 0.03em;
-    color: #F4F4FD;}
+    line-height: 1.17;
+    text-transform: uppercase}
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
