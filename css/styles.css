@@ -48,8 +48,7 @@ text-decoration: none;
     text-decoration: none;}
 
 
-/* H1 */ 
-
+/* SECTION ONE */ 
 
 .header-one{
     font-weight: 700;
@@ -71,6 +70,7 @@ text-decoration: none;
 .button-order:hover{background-color: #404BBF;}
 .button-order:focus{ background-color: #404BBF;}
 
+/*SECTION TWO*/
 .list-item{font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -82,14 +82,20 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color:var(--brand-color)}
 
+/*SECTION THREE*/
 .header-two{font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
+    color: #2E2F42;
+text-transform: capitalize;}
 
+/*SECTION FOUR*/
 .section-our-team{background-color: #F4F4FD;}
+
+
+/*FOOTER*/
 .section-footer {background-color: #2E2F42;}
 
 .title-last-footer{font-family: "Raleway", sans-serif;
