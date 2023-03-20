@@ -98,12 +98,29 @@ text-transform: capitalize;}
 /*FOOTER*/
 .section-footer {background-color: #2E2F42;}
 
-.title-last-footer{font-family: "Raleway", sans-serif;
-    font-style: normal;
+.title-first {
+    font-family: "Raleway",
+        sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17; color: #F4F4FD;
-    text-transform: uppercase; text-decoration: none}
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.title-last {
+    font-family: "Raleway",
+        sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
