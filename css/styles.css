@@ -1,7 +1,7 @@
 body {font-family: 'Roboto', sans-serif;color: #434455; background-color: #FFFFFF;}
 :root{--brand-color:#434455;}
 
-.title{font-family: "Raleway",
+.link{font-family: "Raleway",
     sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -10,8 +10,8 @@ letter-spacing: 0.03em;
 color: #4D5AE5;text-transform: uppercase;text-decoration:none; }
 
 .link{text-decoration: none;}
-.link:hover { color:#404bbf;}
-.link:focus{color: #404bbf;}
+.link:hover .list-link:hover{ color:#404bbf;}
+.link:focus .list-link:focus{color: #404bbf;}
 
 .title-last{font-family:"Raleway",
     sans-serif;
