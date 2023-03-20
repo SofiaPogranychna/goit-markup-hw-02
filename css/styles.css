@@ -10,8 +10,14 @@ letter-spacing: 0.03em;
 color: #4D5AE5;text-transform: uppercase;text-decoration:none; }
 
 .link{text-decoration: none;}
-.link:hover .list-link:hover{ color:#404bbf;}
-.link:focus .list-link:focus{color: #404bbf;}
+.link:hover {color: #404bbf;}
+.link:focus {color: #404bbf;}
+.list-link:hover {
+    color: #404bbf;
+}
+.list-link:focus {
+    color: #404bbf;
+}
 
 .title-last{font-family:"Raleway",
     sans-serif;
