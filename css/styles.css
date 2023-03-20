@@ -67,8 +67,6 @@ text-decoration: none;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor:pointer}
-.button-order:hover{background-color: #404BBF;}
-.button-order:focus{ background-color: #404BBF;}
 
 /*SECTION TWO*/
 .list-item{font-weight: 500;
