@@ -58,7 +58,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center; }
-.section-one{background-color: #2E2F42;}
+.section-one{background-color: #2e2f42;}
 
 .button-order{font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -66,8 +66,10 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: #404BBF;
+    background-color: #4D5AE5;
     cursor:pointer}
+.button-order:hover{background-color: #404BBF;}
+.button-order:focus{ background-color: #404BBF;}
 
 .list-item{font-weight: 500;
     font-size: 20px;
@@ -76,8 +78,8 @@ text-decoration: none;
     color: #2E2F42;}
 
 .list-item-description{font-size: 16px;
-    letter-spacing: 0.02em;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color:var(--brand-color)}
 
 .header-two{font-weight: 700;
