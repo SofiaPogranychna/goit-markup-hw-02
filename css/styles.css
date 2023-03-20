@@ -28,8 +28,7 @@ color: #4D5AE5;text-transform: uppercase;text-decoration:none; }
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-text-decoration: none
-var(--brand-color);
+text-decoration: none;
  }
  .link:hover {
      color: #404bbf;
@@ -42,10 +41,13 @@ var(--brand-color);
 .list-contact{font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 1.5 var(--brand-color)}
+    letter-spacing: 0.02em;
+    letter-spacing: 1.5 
+    var(--brand-color);}
 
 .list-contact{text-decoration: none;}
+.list-contact:hover{color: #404bbf}
+.list-contact:focus{color: #404bbf}
 
 
 /* H1 */ 
