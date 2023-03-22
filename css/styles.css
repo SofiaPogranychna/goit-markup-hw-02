@@ -30,13 +30,8 @@ color: #4D5AE5;text-transform: uppercase;text-decoration:none; }
     color: #2E2F42;
 text-decoration: none;
  }
- .link:hover {
-     color: #404bbf;
- }
-
- .link:focus {
-     color: #404bbf;
- }
+ .link:is(:hover, :focus) {
+     color: #404bbf;}
 
  /*NAVIGATION-CONTACT*/
 .list-contact{font-style: normal;
@@ -128,4 +123,27 @@ text-transform: capitalize;}
     color: #F4F4FD;}
 
 /*PORTFOLIO PAGE*/
+.button-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer
+    }
+.button-nav:is(:hover, :focus) {color: #FFFFFF;background-color: #404BBF;}
+.portfolio-head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
 
+.portfolio-head-paragraph{font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
