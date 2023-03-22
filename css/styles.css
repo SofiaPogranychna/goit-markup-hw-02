@@ -32,6 +32,7 @@ text-decoration: none;
  }
  .link:is(:hover, :focus) {
      color: #404bbf;}
+.link{text-decoration: none;}
 
  /*NAVIGATION-CONTACT*/
 .list-contact{font-style: normal;
