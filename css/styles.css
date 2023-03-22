@@ -134,7 +134,7 @@ text-transform: capitalize;}
     cursor: pointer
     }
 .button-nav:is(:hover, :focus) {color: #FFFFFF;background-color: #404BBF;}
-.portfolio-head{
+.portfolio-head{ font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
